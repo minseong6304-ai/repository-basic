@@ -393,3 +393,18 @@ $$
 
 <img width="452" height="237" alt="image" src="https://github.com/user-attachments/assets/395928ce-a55a-4c30-9ef1-e744a47129a7" />
 
+$$
+\Phi(s) = [sI - A]^{-1}
+$$
+
+$$
+G_T(s) = C \* \Phi(s) \* B + D
+$$
+
+#### 이는 손으로 풀 수 없기 때문에, 매트랩으로 계산하면
+
+
+$$
+G(s) = C(sI-A)^{-1}B = \frac{-4s+12}{s^3 - 14s^2 + 37s +20}
+$$
+
