@@ -37,7 +37,6 @@ x_1'(t)
 \end{bmatrix}
 $$
 
-### 답
 $$
 X'(t) =
 \begin{bmatrix}
@@ -71,7 +70,6 @@ $$
 
 <img width="442" height="276" alt="image" src="https://github.com/user-attachments/assets/7559a77e-1ada-4ab0-b9ba-a7a60549879c" />
  
-
 
 $$
 x_1(t) = i_L(t), \quad x_2(t) = v_C(t)
@@ -251,6 +249,8 @@ y(t) =
 X(t)
 $$
 
+---
+
 ### P3.12
 <img width="386" height="139" alt="image" src="https://github.com/user-attachments/assets/f4b70ad8-a4b3-4cec-8631-3a65ac0d6f2c" />
 
@@ -339,6 +339,47 @@ $$
 #### (b) 상태이천행렬을 구하라.
 
 $$
+A =
+\begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-48 & -44 & -12
+\end{bmatrix}
+$$
+
+$$
+sI - A =
+\begin{bmatrix}
+s & 0 & 0 \\
+0 & s & 0 \\
+0 & 0 & s
+\end{bmatrix}-
+\begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-48 & -44 & -12
+\end{bmatrix}
+=\begin{bmatrix}
+s & -1 & 0 \\
+0 & s & -1 \\
+48 & 44 & s + 12
+\end{bmatrix}
+$$
+
+$$
+\Phi(s)
+= [sI - A]^{-1}
+= \frac{1}{s^3 + 12s^2 + 44s + 48}
+\begin{bmatrix}
+s(s^2 + 12s + 44) & 48 & 0 \\
+0 & s(s^2 + 12s) & 44s + 48 \\
+48 & 44s & (s + 12)s^2
+\end{bmatrix}
+$$
+
+#### 이는 손으로 풀 수 없기 때문에, 매트랩으로 계산하면
+
+$$
 \Phi(t) = \begin{bmatrix} 
 e^{-6t} - 3e^{-4t} + 3e^{-2t} & \frac{3}{4}e^{-6t} - 2e^{-4t} + \frac{5}{4}e^{-2t} & \frac{1}{8}e^{-6t} - \frac{1}{4}e^{-4t} + \frac{1}{8}e^{-2t} \\
 -6e^{-6t} - 12e^{-4t} - 6e^{-2t} & -\frac{9}{2}e^{-6t} + 8e^{-4t} - \frac{5}{2}e^{-2t} & -\frac{3}{4}e^{-6t} - e^{-4t} - \frac{1}{4}e^{-2t} \\
@@ -346,10 +387,9 @@ e^{-6t} - 3e^{-4t} + 3e^{-2t} & \frac{3}{4}e^{-6t} - 2e^{-4t} + \frac{5}{4}e^{-2
 \end{bmatrix}
 $$
 
+
+
 ### P3.17
-<img width="614" height="321" alt="image" src="https://github.com/user-attachments/assets/5de7c4d3-104e-4769-bdbf-e000214550f1" />
 
-
-
-
+<img width="452" height="237" alt="image" src="https://github.com/user-attachments/assets/395928ce-a55a-4c30-9ef1-e744a47129a7" />
 
