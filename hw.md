@@ -337,3 +337,11 @@ X(t)
 $$
 
 #### (b) 상태이천행렬을 구하라.
+
+
+
+<img width="336" height="177" alt="image" src="https://github.com/user-attachments/assets/402d6dff-d79f-40f1-a189-69a852911509" />
+
+
+
+
