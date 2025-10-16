@@ -338,9 +338,17 @@ $$
 
 #### (b) 상태이천행렬을 구하라.
 
+$$
+\Phi(t) = \begin{bmatrix} 
+e^{-6t} - 3e^{-4t} + 3e^{-2t} & \frac{3}{4}e^{-6t} - 2e^{-4t} + \frac{5}{4}e^{-2t} & \frac{1}{8}e^{-6t} - \frac{1}{4}e^{-4t} + \frac{1}{8}e^{-2t} \\
+-6e^{-6t} - 12e^{-4t} - 6e^{-2t} & -\frac{9}{2}e^{-6t} + 8e^{-4t} - \frac{5}{2}e^{-2t} & -\frac{3}{4}e^{-6t} - e^{-4t} - \frac{1}{4}e^{-2t} \\
+36e^{-6t} - 48e^{-4t} + 12e^{-2t} & 27e^{-6t} - 32e^{-4t} + 5e^{-2t} & \frac{9}{2}e^{-6t} - 4e^{-4t} + \frac{1}{2}e^{-2t}
+\end{bmatrix}
+$$
 
+### P3.17
+<img width="614" height="321" alt="image" src="https://github.com/user-attachments/assets/5de7c4d3-104e-4769-bdbf-e000214550f1" />
 
-<img width="336" height="177" alt="image" src="https://github.com/user-attachments/assets/402d6dff-d79f-40f1-a189-69a852911509" />
 
 
 
