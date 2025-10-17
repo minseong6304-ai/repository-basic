@@ -7,6 +7,7 @@
 
 
 <img width="378" height="190" alt="image" src="https://github.com/user-attachments/assets/717b3e86-8f91-46b4-a966-bd1b44846a32" />
+(a)
 
 $$
 \text{state: } 
@@ -16,6 +17,7 @@ x_2(t) = \dfrac{dy(t)}{dt}
 \end{cases}
 $$
 
+(b)
 
 $$
 M a_y = M \dfrac{d^2 y(t)}{dt^2} = F(t) - K y(t) - b \dfrac{dy(t)}{dt}
@@ -24,6 +26,8 @@ $$
 $$
 \Rightarrow M \dfrac{d^2 x_1(t)}{dt^2} = F(t) - K x_1(t) - b x_2(t)
 $$
+
+(c)
 
 $$
 X(t) = 
